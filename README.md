@@ -8,23 +8,23 @@ This is the Nexis Network Javascript API built on [JSON RPC API](https://docs.ne
 ### Yarn
 
 ```
-$ yarn add @nexis-network/web3
+$ yarn add @nexis-ai/web3
 ```
 
 ### npm
 
 ```
-$ npm install --save @nexis-network/web3
+$ npm install --save @nexis-ai/web3
 ```
 
 ### Browser bundle
 
 ```html
 <!-- Development (un-minified) -->
-<script src="https://unpkg.com/@nexis-network/web3.js@0.92.0/lib/index.iife.js"></script>
+<script src="https://unpkg.com/@nexis-ai/web3.js@0.92.0/lib/index.iife.js"></script>
 
 <!-- Production (un-minified) -->
-<script src="https://unpkg.com/@nexis-network/web3.js@0.92.0/lib/index.iife.min.js"></script>
+<script src="https://unpkg.com/@nexis-ai/web3.js@0.92.0/lib/index.iife.min.js"></script>
 ```
 
 ## Development Environment Setup
@@ -40,14 +40,14 @@ Install the latest Nexis Network release from https://docs.nexis.network/cli/ins
 ### Javascript
 
 ```js
-const nexisWeb3 = require('@nexis-network/web3.js');
+const nexisWeb3 = require('@nexis-ai/web3.js');
 console.log(nexisWeb3);
 ```
 
 ### ES6
 
 ```js
-import nexisWeb3 from '@nexis-network/web3.js';
+import nexisWeb3 from '@nexis-ai/web3.js';
 console.log(nexisWeb3);
 ```
 
@@ -81,7 +81,7 @@ node_modules/@solana/web3.js/module.flow.js
 
 ## Releases
 Releases are available on [Github](https://github.com/nexis/web3.js/releases)
-and [npmjs.com](https://www.npmjs.com/package/@nexis-network/web3.js)
+and [npmjs.com](https://www.npmjs.com/package/@nexis-ai/web3.js)
 
 Each Github release features a tarball containing API documentation and a
 minified version of the module suitable for direct use in a browser environment
